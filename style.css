@@ -1,0 +1,95 @@
+body { 
+display: flex;
+background-color: #ebeef7;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav {
+    background-color: #1c1c28;
+    width: 10%; 
+    font-weight: 100;
+}
+
+nav legend {
+    background-color: #191923;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav p {
+    padding: 10px;
+    color: #d8d8dbbd;
+}
+
+
+.liste-horizontale li {
+    display: inline
+}
+
+.background-white {
+    background-color: white;
+}
+
+td, th {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+
+.white-marged {
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10Px;
+    min-width: auto;
+}
+
+table, th, td {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color:#ebeef7 ;
+}
+
+#radius-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-top: 0px;
+}
+#radius-bottom {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-bottom: 1px;
+}
+
+header {display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+footer {display: flex;
+justify-content: space-between;
+}
+
+header a, footer a {
+    text-decoration: none;
+    padding: 10px;
+    color: #b4b4b9;
+}
+
+header div {
+    display: flex
+}
