@@ -9,6 +9,7 @@ font-size: small;
 nav {
     background-color: #1c1c28;
     width: 15%; 
+    min-width: 180px;
     font-weight: 200;
 }
 
@@ -28,6 +29,11 @@ nav ul {
 nav a {
     text-decoration: none;
     color: white;
+}
+
+.test {
+    width: 100%;
+    overflow:hidden;
 }
 
 .grey-text {
@@ -75,6 +81,7 @@ td, th {
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 #radius-top {
@@ -91,9 +98,11 @@ table {
     line-height: 10px;
 }
 
-header {display: flex;
+header {
+    display: flex;
     justify-content: space-between;
     padding: 10px;
+    width: 100%;
 }
 
 .squared {
@@ -101,7 +110,7 @@ header {display: flex;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 5px;
-    margin-right: 10px;
+    margin-right: 20px;
     border-radius: 5px;
     color: #41cac3;
 }
@@ -124,6 +133,7 @@ header div {
 #flex {
     display: flex;
     align-items: center;
+    overflow: auto;
 }
 #flex img {
     width: 50px;
