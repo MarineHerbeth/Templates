@@ -7,19 +7,21 @@ font-family: Arial, Helvetica, sans-serif;
 
 nav {
     background-color: #1c1c28;
-    width: 10%; 
+    width: 15%; 
     font-weight: 100;
 }
 
 nav legend {
     background-color: #191923;
     color: white;
-    padding: 10px;
+    padding: 25px;
     text-transform: uppercase;
+
 }
 
 nav ul {
     list-style-type: none;
+    line-height: 3 ;
 }
 
 nav a {
@@ -27,9 +29,16 @@ nav a {
     color: white;
 }
 
-nav p {
-    padding: 10px;
-    color: #d8d8dbbd;
+.grey-text {
+    color: #b4b4b9;
+    text-align: left;
+}
+
+.grey-text-uppercase {
+    color: #b4b4b9;
+    text-align: left;
+    text-transform: uppercase;
+
 }
 
 
@@ -52,7 +61,12 @@ td, th {
     margin: 20px;
     border-radius: 10px;
     padding: 10Px;
-    min-width: auto;
+    min-width: auto;  
+}
+
+.white-marged a {
+    text-decoration: none;
+    color: #4aa4f3;
 }
 
 table, th, td {
@@ -62,6 +76,7 @@ table, th, td {
     border-collapse: collapse;
     border-width: 1px;
     border-color:#ebeef7 ;
+    padding: 20px;
 }
 
 #radius-top {
@@ -73,12 +88,23 @@ table, th, td {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     margin-bottom: 1px;
+    line-height: 10px;
 }
 
 header {display: flex;
     justify-content: space-between;
     padding: 10px;
 }
+
+.squared {
+    background-color:#c2f6f3 ;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: #41cac3;
+}
+
 
 footer {display: flex;
 justify-content: space-between;
@@ -93,3 +119,31 @@ header a, footer a {
 header div {
     display: flex
 }
+
+#flex {
+    display: flex;
+    align-items: center;
+}
+#flex img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+main div {
+  background-color: white; 
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  
+}
+
+main {
+    padding-left: 50px;
+padding-right: 50px;}
